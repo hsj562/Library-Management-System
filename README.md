@@ -8,7 +8,7 @@
 <br/>
 (reference: project specification)
 
-#### Explanation of Codes
+#### Explanation of the Codes
 * **serverM.cpp**: <br/> Server M communicates with both the client and backend servers. It first authenticates the client, then receives book queries from the client, and forwards them to a specific backend server. Finally, Server M receives the book status from the backend server and relays this information to the client.
   
 * **serverS.cpp**: <br/> Server S communicates with Server M to handle queries for science books. Upon receiving a query, it determines the book's status (available/not available) and reports this, along with the remaining quantity for admin users, back to Server M.
@@ -19,7 +19,7 @@
 
 * **client.cpp**: <br/> Client provides an interface for users to enter their username and password to access the service. After authentication, users can submit book codes for querying. These requests are sent to Server M, which then returns the book status to the user.
 
-#### Run the Codes
+#### How to Run the Codes
 1. ```cd codes```
 2. Compile files ```make all```
 3. Run servers ```./serverM``` ```./serverS``` ```./serverL``` ```./serverH```
