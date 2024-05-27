@@ -19,6 +19,14 @@
 
 * **client.cpp**: <br/> Client provides an interface for users to enter their username and password to access the service. After authentication, users can submit book codes for querying. These requests are sent to Server M, which then returns the book status to the user.
 
+#### Run the Codes
+1. ```cd codes```
+2. Compile files ```make all```
+3. Run servers ```./serverM``` ```./serverS``` ```./serverL``` ```./serverH```
+4. Start client ```./client```
+5. Remove all executable files ```make clean```
+
+
 #### References
 - [Beej's Guide to Network Programming Using Internet Sockets](https://www.beej.us/guide/bgnet/)
 - StackOverflow
