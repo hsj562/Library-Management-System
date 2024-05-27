@@ -4,7 +4,7 @@
 - **Admin Users**: Users should log in to the system and enter a book code. The remaining quantity of the book will then be displayed to the user.
 
 #### Illustration of the System
-![alt text](image.png)
+<img width="834" alt="Screenshot 2024-05-27 at 10 49 58 PM" src="https://github.com/hsj562/Library-Management-System/assets/48441567/6b28c606-0e6b-4ead-b03b-dbc1cfda1b6c">
 (reference: project specification)
 
 #### Explanation of Codes
