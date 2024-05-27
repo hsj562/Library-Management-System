@@ -5,6 +5,7 @@
 
 #### Illustration of the System
 <img width="834" alt="Screenshot 2024-05-27 at 10 49 58 PM" src="https://github.com/hsj562/Library-Management-System/assets/48441567/6b28c606-0e6b-4ead-b03b-dbc1cfda1b6c">
+<br/>
 (reference: project specification)
 
 #### Explanation of Codes
